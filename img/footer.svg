@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1440px" height="401px" viewBox="0 0 1440 401" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 381</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient id="skyGradient" x1="100%" y1="100%">
+          <stop offset="0%" stop-color="lightblue" stop-opacity="1">
+            <animate attributeName="stop-color" values="#5138AE;#7B58FC;#5138AE" dur="7s" repeatCount="indefinite" />
+          </stop>
+          <stop offset="100%" stop-color="lightblue" stop-opacity="1">
+            <animate attributeName="stop-color" values="#5138AE;#7B58FC;#5138AE" dur="7s" repeatCount="indefinite" />
+            <animate attributeName="offset" values=".99;.50;.99" dur="7s" repeatCount="indefinite" />
+          </stop>
+        </linearGradient>
+    </defs>
+    <g id="Presentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(0.000000, -4073.000000)" fill="url(#skyGradient)">
+            <g id="Group-10" transform="translate(0.000000, 914.000000)">
+                <path d="M0,3195.47344 C0,3195.47344 328.182953,3159 720,3159 C1111.81705,3159 1440,3195.47344 1440,3195.47344 L1440,3560 L0,3560 L0,3195.47344 Z" id="Rectangle-381"></path>
+            </g>
+        </g>
+    </g>
+</svg>

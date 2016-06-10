@@ -1,0 +1,113 @@
+section.user-profile .user-info-profile-container {
+  width: 100%;
+  height: 350px;
+  background-color: whitesmoke;
+  position: relative; }
+  section.user-profile .user-info-profile-container .back-user-profile {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute; }
+    section.user-profile .user-info-profile-container .back-user-profile img {
+      width: 140%;
+      position: absolute;
+      top: -100%;
+      left: -20%;
+      -webkit-filter: blur(15px);
+      opacity: 0.3; }
+  section.user-profile .user-info-profile-container .user-stats-container {
+    position: relative;
+    height: 100%; }
+    section.user-profile .user-info-profile-container .user-stats-container .img-default-circle {
+      width: 150px;
+      height: 150px;
+      display: inline-block;
+      vertical-align: middle;
+      border: 10px white solid; }
+    section.user-profile .user-info-profile-container .user-stats-container .text-user-profile {
+      display: inline-block;
+      vertical-align: middle;
+      text-align: left;
+      color: #636363;
+      margin-left: 10px; }
+      section.user-profile .user-info-profile-container .user-stats-container .text-user-profile h3.user-name {
+        font-weight: 600; }
+      section.user-profile .user-info-profile-container .user-stats-container .text-user-profile h3.user-points {
+        margin: 5px 0px; }
+        section.user-profile .user-info-profile-container .user-stats-container .text-user-profile h3.user-points img {
+          height: 25px;
+          vertical-align: middle;
+          margin-top: -4px; }
+section.user-profile ul.list-filter {
+  margin-top: 50px; }
+section.user-profile .profile-section-container > h2 {
+  font-size: 28px;
+  font-weight: 600;
+  font-size: 24pt;
+  color: #636363;
+  padding-left: 10px; }
+section.user-profile .profile-section-container .mision-card {
+  height: 455px; }
+section.user-profile .profile-section-container .message-container {
+  font-size: 36pt;
+  position: relative;
+  display: inline-block;
+  cursor: pointer; }
+  section.user-profile .profile-section-container .message-container .div-notification-pill {
+    background-color: #FF557E;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 10px;
+    right: -1px;
+    padding: 2px 4px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 11pt;
+    color: white; }
+section.user-profile .profile-section-container .mision-card-cumplida {
+  height: 370px; }
+  section.user-profile .profile-section-container .mision-card-cumplida .header-img {
+    background-color: #44C4FF;
+    position: relative; }
+    section.user-profile .profile-section-container .mision-card-cumplida .header-img img {
+      opacity: 0.4;
+      width: auto;
+      height: 100%; }
+    section.user-profile .profile-section-container .mision-card-cumplida .header-img .mision-cumplida-text {
+      position: absolute;
+      color: white;
+      z-index: 3;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 60px; }
+      section.user-profile .profile-section-container .mision-card-cumplida .header-img .mision-cumplida-text p {
+        font-size: 24pt;
+        font-weight: 600; }
+      section.user-profile .profile-section-container .mision-card-cumplida .header-img .mision-cumplida-text i {
+        font-size: 36pt; }
+section.user-profile .profile-section-container.calificacion {
+  margin-top: 100px; }
+  section.user-profile .profile-section-container.calificacion .stars-result {
+    margin-top: 10px;
+    margin-bottom: 80px; }
+  section.user-profile .profile-section-container.calificacion h2 {
+    margin-top: 50px; }
+section.user-profile .colab-item {
+  height: auto;
+  padding: 100px; }
+section.user-profile .colab-item:nth-child(odd) {
+  background-color: white; }
+  section.user-profile .colab-item:nth-child(odd) .comillas {
+    color: rgba(99, 99, 99, 0.68); }
+  section.user-profile .colab-item:nth-child(odd) .testimonial-text {
+    color: #636363; }
+  section.user-profile .colab-item:nth-child(odd) .testimonial-info h6 {
+    color: #636363; }
+
+section.colaboradores {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+/*# sourceMappingURL=perfil.css.map */

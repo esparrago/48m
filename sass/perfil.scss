@@ -1,0 +1,206 @@
+// =============================================================================
+// Variables
+// =============================================================================
+
+@import "variables";
+
+
+// =============================================================================
+// General styles
+// =============================================================================
+
+section.user-profile {
+
+	.user-info-profile-container {
+
+		width: 100%;
+		height: 350px;
+		background-color: whitesmoke;
+		position: relative;
+		.back-user-profile {
+
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			position: absolute;
+			img {
+
+				width: 140%;
+				position: absolute;
+				top: -100%;
+				left: -20%;
+				-webkit-filter: blur(15px);
+				opacity: 0.3;
+			}
+		}
+		
+		.user-stats-container {
+
+			position: relative;
+			height: 100%;
+			.img-default-circle {
+
+				width: 150px;
+				height: 150px;
+				display: inline-block;
+				vertical-align: middle;
+				border: 10px white solid;
+			}
+
+			.text-user-profile {
+
+				display: inline-block;
+				vertical-align: middle;
+				text-align: left;
+				color: $black;
+				margin-left: 10px;
+
+				h3.user-name {
+
+					font-weight: 600;
+				}
+
+				h3.user-points {
+
+					margin: 5px 0px;
+
+					img {
+
+						height: 25px;
+						vertical-align: middle;
+						margin-top: -4px;
+					}
+				}
+			}
+		}
+	}
+
+	ul.list-filter {
+		
+		margin-top: 50px;
+	}
+
+	.profile-section-container {
+		
+		> h2 {
+			font-size: 28px;
+			font-weight: 600;
+			font-size: 24pt;
+			color: $black;
+			padding-left: 10px;
+		}
+
+		.mision-card {
+
+			height: 455px;
+		}
+
+		.message-container {
+
+			font-size: 36pt;
+			position: relative;
+			display: inline-block;
+			cursor: pointer;
+
+			.div-notification-pill {
+				background-color: #FF557E;
+			    width: 24px;
+			    height: 24px;
+			    position: absolute;
+			    bottom: 10px;
+			    right: -1px;
+			    padding: 2px 4px;
+			    border-radius: 20px;
+			    font-weight: 600;
+			    font-size: 11pt;
+			    color: white;
+			}
+		}
+
+		.mision-card-cumplida {
+
+			height: 370px;
+
+			.header-img {
+
+				background-color: $blue;
+				position: relative;
+				img {
+					opacity: 0.4;
+					width: auto;
+					height: 100%;
+				}
+
+				.mision-cumplida-text {
+
+					position: absolute;
+					color: white;
+					z-index: 3;
+					left: 0;
+					right: 0;
+					margin: 0 auto;
+					top: 60px;
+
+					p {
+
+						font-size: 24pt;
+						font-weight: 600;
+					}
+
+					i {
+
+						font-size: 36pt;
+					}
+				}
+			}
+		}
+
+		&.calificacion {
+
+			margin-top: 100px;
+			
+			.stars-result {
+				
+				margin-top: 10px;
+				margin-bottom: 80px;
+			}
+
+			h2 {
+
+				margin-top: 50px;
+			}
+		}
+	}
+
+	.colab-item {
+		height: auto;
+		padding: 100px;
+	}
+
+	.colab-item:nth-child(odd) {
+
+		background-color: white;
+
+		.comillas {
+			color: rgba($black, 0.68);
+		}
+
+		.testimonial-text {
+			color: $black;
+		}
+
+		.testimonial-info h6 {
+
+			color: $black;
+		}
+	}
+}
+
+section.colaboradores {
+
+	padding-top: 0px;
+	padding-bottom:0px;
+}
+
+
+
