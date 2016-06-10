@@ -1153,6 +1153,24 @@ section.lista-voluntarios-founder {
       margin: 0px 50px; }
   section.lista-voluntarios-founder .card-voluntario-founder {
     height: 300px;
-    padding: 20px; }
+    padding-top: 20px; }
+    section.lista-voluntarios-founder .card-voluntario-founder h3 {
+      font-weight: 600;
+      margin-bottom: 20px; }
+  section.lista-voluntarios-founder .img-default-circle {
+    width: 120px;
+    height: 120px; }
+  section.lista-voluntarios-founder .cumplir > div {
+    width: 50%;
+    padding: 10px 0;
+    float: left;
+    color: white;
+    cursor: pointer; }
+    section.lista-voluntarios-founder .cumplir > div.cumplio {
+      background-color: #3dd875;
+      border-bottom-left-radius: 4px; }
+    section.lista-voluntarios-founder .cumplir > div.no-cumplio {
+      background-color: #FF557E;
+      border-bottom-right-radius: 4px; }
 
 /*# sourceMappingURL=proyecto.css.map */
